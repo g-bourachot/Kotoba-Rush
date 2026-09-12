@@ -23,6 +23,7 @@ const MAX_ROUND_TIME := 10.0
 @onready var feedback_label: Label = $VBox/FeedbackLabel
 @onready var next_button: Button = $VBox/NextButton
 @onready var score_label: Label = $VBox/ScoreLabel
+@onready var best_score_label: Label = $VBox/BestScoreLabel
 @onready var back_button: Button = $BackButton
 
 var round_time: float = 6.0
@@ -31,6 +32,7 @@ var left_is_correct: bool = false
 var round_time_left: float = 0.0
 var round_active: bool = false
 var score: int = 0
+var best_score: int = 0
 
 var swipe_start_pos: Vector2 = Vector2.ZERO
 var swipe_tracking: bool = false
@@ -50,6 +52,9 @@ func _ready() -> void:
 
 	next_button.pressed.connect(_on_next_pressed)
 	next_button.visible = false
+
+	best_score = Settings.wordsort_best_score
+	best_score_label.text = "Meilleur score : %d" % best_score
 
 	if WordDB.count() < 2:
 		kanji_label.text = "Pas assez de mots dans la base."
@@ -109,6 +114,12 @@ func _resolve_round(correct: bool, chosen_side: int) -> void:
 
 	if correct:
 		score += 1
+		if score > best_score:
+			best_score = score
+			Settings.save_wordsort_best_score(best_score)
+			best_score_label.text = "Meilleur score : %d" % best_score
+	else:
+		score = 0
 	score_label.text = "Score : %d" % score
 
 	var correct_label: Label = left_answer_label if left_is_correct else right_answer_label
