@@ -16,7 +16,6 @@ extends Control
 
 const GAME_ID := "trou"
 const SENTENCES_PATH := "res://data/sentences.json"
-const ROUND_END_DELAY := 2.2
 
 @onready var sentence_label: Label = $VBox/SentenceLabel
 @onready var choice_buttons: Array[Button] = [
@@ -25,6 +24,7 @@ const ROUND_END_DELAY := 2.2
 	$VBox/ChoicesRow/Choice3,
 ]
 @onready var feedback_label: Label = $VBox/FeedbackLabel
+@onready var next_button: Button = $VBox/NextButton
 @onready var score_label: Label = $VBox/ScoreLabel
 @onready var best_score_label: Label = $VBox/BestScoreLabel
 @onready var back_button: Button = $BackButton
@@ -43,6 +43,9 @@ func _ready() -> void:
 
 	for i in range(choice_buttons.size()):
 		choice_buttons[i].pressed.connect(_on_choice_pressed.bind(i))
+
+	next_button.pressed.connect(_on_next_pressed)
+	next_button.visible = false
 
 	best_score = Settings.get_best_score(GAME_ID)
 	best_score_label.text = "Meilleur score : %d" % best_score
@@ -77,6 +80,7 @@ func _find_word(word_id) -> Dictionary:
 func _start_round() -> void:
 	round_active = false
 	feedback_label.text = ""
+	next_button.visible = false
 	for b in choice_buttons:
 		b.disabled = false
 		b.modulate = Color(1, 1, 1)
@@ -137,5 +141,8 @@ func _on_choice_pressed(idx: int) -> void:
 		target_word.get("meaning", ""),
 	]
 
-	await get_tree().create_timer(ROUND_END_DELAY).timeout
+	next_button.visible = true
+
+
+func _on_next_pressed() -> void:
 	_start_round()
