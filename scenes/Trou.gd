@@ -14,6 +14,7 @@ extends Control
 # (leurres choisis à la main pour rester grammaticalement plausibles).
 # ============================================================
 
+const GAME_ID := "trou"
 const SENTENCES_PATH := "res://data/sentences.json"
 const ROUND_END_DELAY := 2.2
 
@@ -25,6 +26,7 @@ const ROUND_END_DELAY := 2.2
 ]
 @onready var feedback_label: Label = $VBox/FeedbackLabel
 @onready var score_label: Label = $VBox/ScoreLabel
+@onready var best_score_label: Label = $VBox/BestScoreLabel
 @onready var back_button: Button = $BackButton
 
 var sentences: Array = []
@@ -32,6 +34,7 @@ var current_target_id = null
 var choice_word_ids: Array = []
 var round_active: bool = false
 var score: int = 0
+var best_score: int = 0
 
 
 func _ready() -> void:
@@ -40,6 +43,9 @@ func _ready() -> void:
 
 	for i in range(choice_buttons.size()):
 		choice_buttons[i].pressed.connect(_on_choice_pressed.bind(i))
+
+	best_score = Settings.get_best_score(GAME_ID)
+	best_score_label.text = "Meilleur score : %d" % best_score
 
 	_load_sentences()
 
@@ -116,6 +122,12 @@ func _on_choice_pressed(idx: int) -> void:
 	WordDB.update_stats(current_target_id, correct)
 	if correct:
 		score += 1
+		if score > best_score:
+			best_score = score
+			Settings.save_best_score(GAME_ID, best_score)
+			best_score_label.text = "Meilleur score : %d" % best_score
+	else:
+		score = 0
 	score_label.text = "Score : %d" % score
 
 	var target_word: Dictionary = _find_word(current_target_id)

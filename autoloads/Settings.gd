@@ -9,9 +9,13 @@ extends Node
 
 const SETTINGS_PATH := "user://settings.cfg"
 
+# Chaque mini-jeu a sa propre section dans settings.cfg, identifiée
+# par cet id (ex. "wordsort", "chute", "trou").
+const GAME_IDS := ["wordsort", "chute", "trou"]
+
 var round_time: float = 6.0
 var memory_pairs: int = 6
-var wordsort_best_score: int = 0
+var best_scores: Dictionary = {}
 
 
 func _ready() -> void:
@@ -22,8 +26,24 @@ func _load() -> void:
 	var cfg := ConfigFile.new()
 	if cfg.load(SETTINGS_PATH) == OK:
 		round_time = cfg.get_value("wordsort", "round_time", round_time)
-		wordsort_best_score = cfg.get_value("wordsort", "best_score", wordsort_best_score)
 		memory_pairs = cfg.get_value("memory_match", "pairs", memory_pairs)
+		for game_id in GAME_IDS:
+			best_scores[game_id] = cfg.get_value(game_id, "best_score", 0)
+	else:
+		for game_id in GAME_IDS:
+			best_scores[game_id] = 0
+
+
+func get_best_score(game_id: String) -> int:
+	return best_scores.get(game_id, 0)
+
+
+func save_best_score(game_id: String, value: int) -> void:
+	best_scores[game_id] = value
+	var cfg := ConfigFile.new()
+	cfg.load(SETTINGS_PATH)
+	cfg.set_value(game_id, "best_score", value)
+	cfg.save(SETTINGS_PATH)
 
 
 func save_round_time(value: float) -> void:
@@ -39,12 +59,4 @@ func save_memory_pairs(value: int) -> void:
 	var cfg := ConfigFile.new()
 	cfg.load(SETTINGS_PATH)
 	cfg.set_value("memory_match", "pairs", value)
-	cfg.save(SETTINGS_PATH)
-
-
-func save_wordsort_best_score(value: int) -> void:
-	wordsort_best_score = value
-	var cfg := ConfigFile.new()
-	cfg.load(SETTINGS_PATH)
-	cfg.set_value("wordsort", "best_score", value)
 	cfg.save(SETTINGS_PATH)

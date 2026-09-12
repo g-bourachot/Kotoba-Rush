@@ -9,6 +9,7 @@ extends Control
 # atteigne le sol.
 # ============================================================
 
+const GAME_ID := "chute"
 const FALL_ITEMS_COUNT := 3
 const FALL_SPEED := 140.0
 const ITEM_SIZE := Vector2(180, 64)
@@ -17,6 +18,7 @@ const ROUND_END_DELAY := 0.7
 
 @onready var kanji_label: Label = $KanjiLabel
 @onready var score_label: Label = $ScoreLabel
+@onready var best_score_label: Label = $BestScoreLabel
 @onready var play_field: Control = $PlayField
 @onready var back_button: Button = $BackButton
 
@@ -27,12 +29,16 @@ var falling_y: Array[float] = []
 var falling_active: Array[bool] = []
 var round_active: bool = false
 var score: int = 0
+var best_score: int = 0
 var ground_y: float = 0.0
 
 
 func _ready() -> void:
 	randomize()
 	back_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/Main.tscn"))
+
+	best_score = Settings.get_best_score(GAME_ID)
+	best_score_label.text = "Meilleur score : %d" % best_score
 
 	if WordDB.count() < FALL_ITEMS_COUNT:
 		kanji_label.text = "Pas assez de mots dans la base."
@@ -128,6 +134,12 @@ func _resolve_round(correct: bool, triggered_idx: int) -> void:
 	WordDB.update_stats(current_word.get("id"), correct)
 	if correct:
 		score += 1
+		if score > best_score:
+			best_score = score
+			Settings.save_best_score(GAME_ID, best_score)
+			best_score_label.text = "Meilleur score : %d" % best_score
+	else:
+		score = 0
 	score_label.text = "Score : %d" % score
 
 	await get_tree().create_timer(ROUND_END_DELAY).timeout
