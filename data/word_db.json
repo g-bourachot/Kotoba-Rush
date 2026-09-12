@@ -1,0 +1,5362 @@
+[
+  {
+    "id": "w0001",
+    "kanji": "変わる",
+    "reading": "かわる",
+    "meaning": "changer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1789084800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0002",
+    "kanji": "復讐",
+    "reading": "ふくしゅう",
+    "meaning": "vengeance",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788998400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0003",
+    "kanji": "やる気",
+    "reading": "やるき",
+    "meaning": "motivation",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0004",
+    "kanji": "退院",
+    "reading": "たいいん",
+    "meaning": "sortie de l'hôpital",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788825600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0005",
+    "kanji": "満足感",
+    "reading": "まんぞくかん",
+    "meaning": "sentiment de satisfaction",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788825600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0006",
+    "kanji": "暮らす",
+    "reading": "くらす",
+    "meaning": "vivre / habiter",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0007",
+    "kanji": "生活",
+    "reading": "せいかつ",
+    "meaning": "vie / mode de vie",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0008",
+    "kanji": "泥",
+    "reading": "どろ",
+    "meaning": "boue",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0009",
+    "kanji": "侵入",
+    "reading": "しんにゅう",
+    "meaning": "intrusion",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0010",
+    "kanji": "陴下",
+    "reading": "へいか",
+    "meaning": "Sa Majesté",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0011",
+    "kanji": "配達",
+    "reading": "はいたつ",
+    "meaning": "livraison",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0012",
+    "kanji": "尋ねる",
+    "reading": "たずねる",
+    "meaning": "demander / interroger",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0013",
+    "kanji": "厳しい",
+    "reading": "きびしい",
+    "meaning": "strict / sévère",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0014",
+    "kanji": "禁じる",
+    "reading": "きんじる",
+    "meaning": "interdire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0015",
+    "kanji": "増す",
+    "reading": "ます",
+    "meaning": "augmenter / s'accroître",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0016",
+    "kanji": "凄く",
+    "reading": "すごく",
+    "meaning": "extrêmement / vraiment",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0017",
+    "kanji": "販売",
+    "reading": "はんばい",
+    "meaning": "vente",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787875200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0018",
+    "kanji": "検査",
+    "reading": "けんさ",
+    "meaning": "examen / vérification",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787788800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0019",
+    "kanji": "巻き込む",
+    "reading": "まきこむ",
+    "meaning": "impliquer / entraîner",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787616000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0020",
+    "kanji": "集める",
+    "reading": "あつめる",
+    "meaning": "collectionner / rassembler",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787529600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0021",
+    "kanji": "八百屋",
+    "reading": "やおや",
+    "meaning": "marchand de légumes",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787356800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0022",
+    "kanji": "城",
+    "reading": "しろ",
+    "meaning": "château",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787356800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0023",
+    "kanji": "治す",
+    "reading": "なおす",
+    "meaning": "soigner / guérir",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787356800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0024",
+    "kanji": "祝日",
+    "reading": "しゅくじつ",
+    "meaning": "jour férié",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0025",
+    "kanji": "召し上がる",
+    "reading": "めしあがる",
+    "meaning": "manger (très poli)",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0026",
+    "kanji": "お父様",
+    "reading": "おとうさま",
+    "meaning": "votre père (très poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0027",
+    "kanji": "蛇",
+    "reading": "へび",
+    "meaning": "serpent",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0028",
+    "kanji": "掃除",
+    "reading": "そうじ",
+    "meaning": "ménage / nettoyage",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0029",
+    "kanji": "御出で",
+    "reading": "おいで",
+    "meaning": "venir/aller/être (honorifique)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0030",
+    "kanji": "夕暮れ",
+    "reading": "ゆうぐれ",
+    "meaning": "crépuscule",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0031",
+    "kanji": "ご存じ",
+    "reading": "ごぞんじ",
+    "meaning": "être au courant (honorifique)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0032",
+    "kanji": "季節",
+    "reading": "きせつ",
+    "meaning": "saison",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788393600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0033",
+    "kanji": "寿司",
+    "reading": "すし",
+    "meaning": "sushi",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0034",
+    "kanji": "ご覧になる",
+    "reading": "ごらんになる",
+    "meaning": "voir (honorifique)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0035",
+    "kanji": "存じ上げる",
+    "reading": "ぞんじあげる",
+    "meaning": "connaître (très humble)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0036",
+    "kanji": "いらっしゃる",
+    "reading": "いらっしゃる",
+    "meaning": "être/venir/aller (honorifique)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0037",
+    "kanji": "仰る",
+    "reading": "おっしゃる",
+    "meaning": "dire (honorifique)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0038",
+    "kanji": "為さる",
+    "reading": "なさる",
+    "meaning": "faire (honorifique)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0039",
+    "kanji": "拝見",
+    "reading": "はいけん",
+    "meaning": "voir (humble)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0040",
+    "kanji": "邪魔",
+    "reading": "じゃま",
+    "meaning": "gêne / obstacle",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1787702400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0041",
+    "kanji": "徒歩",
+    "reading": "とほ",
+    "meaning": "à pied",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0042",
+    "kanji": "お目にかかる",
+    "reading": "おめにかかる",
+    "meaning": "rencontrer/voir (très poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0043",
+    "kanji": "申し上げる",
+    "reading": "もうしあげる",
+    "meaning": "dire (très humble)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0044",
+    "kanji": "記念日",
+    "reading": "きねんび",
+    "meaning": "jour anniversaire / date commémorative",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0045",
+    "kanji": "参る",
+    "reading": "まいる",
+    "meaning": "venir/aller (humble)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788134400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0046",
+    "kanji": "平日",
+    "reading": "へいじつ",
+    "meaning": "jour de semaine",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0047",
+    "kanji": "申す",
+    "reading": "もうす",
+    "meaning": "dire / s'appeler (humble)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0048",
+    "kanji": "お疲れ様",
+    "reading": "おつかれさま",
+    "meaning": "merci pour votre travail",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0049",
+    "kanji": "お帰り",
+    "reading": "おかえり",
+    "meaning": "bon retour",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0050",
+    "kanji": "ご馳走様",
+    "reading": "ごちそうさま",
+    "meaning": "merci pour ce repas (après)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0051",
+    "kanji": "今日わ",
+    "reading": "こんにちは",
+    "meaning": "bonjour",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0052",
+    "kanji": "宜しく",
+    "reading": "よろしく",
+    "meaning": "s'il vous plaît / à bien vouloir",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0053",
+    "kanji": "廊下",
+    "reading": "ろうか",
+    "meaning": "couloir",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0054",
+    "kanji": "頂きます",
+    "reading": "いただきます",
+    "meaning": "merci pour ce repas (avant)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0055",
+    "kanji": "只今",
+    "reading": "ただいま",
+    "meaning": "je suis rentré",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0056",
+    "kanji": "告白",
+    "reading": "こくはく",
+    "meaning": "confession / déclaration",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0057",
+    "kanji": "行ってらっしゃい",
+    "reading": "いってらっしゃい",
+    "meaning": "bonne route (à celui qui part)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0058",
+    "kanji": "初めまして",
+    "reading": "はじめまして",
+    "meaning": "enchanté (première rencontre)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0059",
+    "kanji": "こんばんわ",
+    "reading": "こんばんは",
+    "meaning": "bonsoir",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0060",
+    "kanji": "お休みなさい",
+    "reading": "おやすみなさい",
+    "meaning": "bonne nuit",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0061",
+    "kanji": "方",
+    "reading": "かた",
+    "meaning": "personne (poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0062",
+    "kanji": "伺う",
+    "reading": "うかがう",
+    "meaning": "rendre visite / demander (humble)",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0063",
+    "kanji": "助ける",
+    "reading": "たすける",
+    "meaning": "aider / sauver",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0064",
+    "kanji": "旦那",
+    "reading": "だんな",
+    "meaning": "mari / époux (familier)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0065",
+    "kanji": "彼方",
+    "reading": "あちら",
+    "meaning": "là-bas (au loin)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0066",
+    "kanji": "何方",
+    "reading": "どちら",
+    "meaning": "lequel / qui (poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0067",
+    "kanji": "其方",
+    "reading": "そちら",
+    "meaning": "là-bas (près de l'interlocuteur)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0068",
+    "kanji": "此方",
+    "reading": "こちら",
+    "meaning": "par ici / ceci (poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0069",
+    "kanji": "あぁ",
+    "reading": "ああ",
+    "meaning": "ah (exclamation)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0070",
+    "kanji": "後輩",
+    "reading": "こうはい",
+    "meaning": "cadet / junior",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0071",
+    "kanji": "御座る",
+    "reading": "ござる",
+    "meaning": "être / se trouver (très formel)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0072",
+    "kanji": "息",
+    "reading": "いき",
+    "meaning": "souffle / respiration",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0073",
+    "kanji": "奥さん",
+    "reading": "おくさん",
+    "meaning": "épouse (de quelqu'un d'autre)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0074",
+    "kanji": "久しぶり",
+    "reading": "ひさしぶり",
+    "meaning": "ça faisait longtemps",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0075",
+    "kanji": "考え",
+    "reading": "かんがえ",
+    "meaning": "pensée / idée",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0076",
+    "kanji": "利用",
+    "reading": "りよう",
+    "meaning": "utilisation",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0077",
+    "kanji": "競争",
+    "reading": "きょうそう",
+    "meaning": "compétition / concurrence",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0078",
+    "kanji": "振る",
+    "reading": "ふる",
+    "meaning": "agiter / remuer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0079",
+    "kanji": "生きる",
+    "reading": "いきる",
+    "meaning": "vivre",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787788800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0080",
+    "kanji": "られる",
+    "reading": "られる",
+    "meaning": "passif / honorifique",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0081",
+    "kanji": "喫煙",
+    "reading": "きつえん",
+    "meaning": "fumer / tabagisme",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0082",
+    "kanji": "紀元",
+    "reading": "きげん",
+    "meaning": "ère / origine chronologique",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788393600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0083",
+    "kanji": "農場",
+    "reading": "のうじょう",
+    "meaning": "ferme",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0084",
+    "kanji": "生前",
+    "reading": "せいぜん",
+    "meaning": "de son vivant",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787788800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0085",
+    "kanji": "先輩",
+    "reading": "せんぱい",
+    "meaning": "aîné / senior",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0086",
+    "kanji": "言語",
+    "reading": "げんご",
+    "meaning": "langue / langage",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0087",
+    "kanji": "浮気",
+    "reading": "うわき",
+    "meaning": "infidélité",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0088",
+    "kanji": "検討",
+    "reading": "けんとう",
+    "meaning": "examen / considération",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0089",
+    "kanji": "警戒",
+    "reading": "けいかい",
+    "meaning": "vigilance / précaution",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787788800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0090",
+    "kanji": "苦い",
+    "reading": "にがい",
+    "meaning": "amer",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0091",
+    "kanji": "記憶",
+    "reading": "きおく",
+    "meaning": "mémoire / souvenir",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0092",
+    "kanji": "家庭",
+    "reading": "かてい",
+    "meaning": "foyer / famille",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0093",
+    "kanji": "通る",
+    "reading": "とおる",
+    "meaning": "passer / traverser",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0094",
+    "kanji": "お母様",
+    "reading": "おかあさま",
+    "meaning": "votre mère (très poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0095",
+    "kanji": "砂糖",
+    "reading": "さとう",
+    "meaning": "sucre",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0096",
+    "kanji": "彼氏",
+    "reading": "かれし",
+    "meaning": "petit ami",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0097",
+    "kanji": "お～致す",
+    "reading": "いたす",
+    "meaning": "forme humble très formelle (de する)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0098",
+    "kanji": "目覚める",
+    "reading": "めざめる",
+    "meaning": "se réveiller",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0099",
+    "kanji": "大事",
+    "reading": "だいじ",
+    "meaning": "important / précieux",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0100",
+    "kanji": "お～する",
+    "reading": "おする",
+    "meaning": "forme humble pour ses propres actions",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0101",
+    "kanji": "契約",
+    "reading": "けいやく",
+    "meaning": "contrat",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0102",
+    "kanji": "狙う",
+    "reading": "ねらう",
+    "meaning": "viser",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1787529600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0103",
+    "kanji": "部長",
+    "reading": "ぶちょう",
+    "meaning": "chef de service",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0104",
+    "kanji": "与える",
+    "reading": "あたえる",
+    "meaning": "donner / accorder",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0105",
+    "kanji": "ドラマ",
+    "reading": "どらま",
+    "meaning": "série / drame télévisé",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0106",
+    "kanji": "計画",
+    "reading": "けいかく",
+    "meaning": "plan / projet",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0107",
+    "kanji": "手術室",
+    "reading": "しゅじゅつしつ",
+    "meaning": "salle d'opération",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0108",
+    "kanji": "居る",
+    "reading": "おる",
+    "meaning": "être / se trouver (humble)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0109",
+    "kanji": "刀",
+    "reading": "かたな",
+    "meaning": "sabre / épée japonaise",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0110",
+    "kanji": "恥ずかしい",
+    "reading": "はずかしい",
+    "meaning": "embarrassant / gêné",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0111",
+    "kanji": "方法",
+    "reading": "ほうほう",
+    "meaning": "méthode / façon",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0112",
+    "kanji": "手袋",
+    "reading": "てぶくろ",
+    "meaning": "gants",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0113",
+    "kanji": "土産",
+    "reading": "みやげ",
+    "meaning": "souvenir (cadeau de voyage)",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788566400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0114",
+    "kanji": "兵士",
+    "reading": "へいし",
+    "meaning": "soldat",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0115",
+    "kanji": "発明",
+    "reading": "はつめい",
+    "meaning": "invention",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0116",
+    "kanji": "ハッピー",
+    "reading": "はっぴー",
+    "meaning": "heureux",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0117",
+    "kanji": "楽しみ",
+    "reading": "たのしみ",
+    "meaning": "plaisir anticipé / hâte",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0118",
+    "kanji": "もしかしたら",
+    "reading": "もしかしたら",
+    "meaning": "peut-être / il se pourrait que",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0119",
+    "kanji": "ダンス",
+    "reading": "だんす",
+    "meaning": "danse",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0120",
+    "kanji": "傑作",
+    "reading": "けっさく",
+    "meaning": "chef-d'œuvre",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1789084800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0121",
+    "kanji": "ならば",
+    "reading": "ならば",
+    "meaning": "si c'est le cas (conditionnel formel)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0122",
+    "kanji": "剣",
+    "reading": "けん",
+    "meaning": "épée",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0123",
+    "kanji": "部",
+    "reading": "ぶ",
+    "meaning": "club / section / partie",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0124",
+    "kanji": "殿",
+    "reading": "との",
+    "meaning": "seigneur / titre honorifique",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0125",
+    "kanji": "過去",
+    "reading": "かこ",
+    "meaning": "passé",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "renforcement"
+  },
+  {
+    "id": "w0126",
+    "kanji": "研究",
+    "reading": "けんきゅう",
+    "meaning": "recherche (scientifique)",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1787702400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0127",
+    "kanji": "けれども",
+    "reading": "けれども",
+    "meaning": "mais / cependant (formel)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0128",
+    "kanji": "紅茶",
+    "reading": "こうちゃ",
+    "meaning": "thé noir",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0129",
+    "kanji": "匀い",
+    "reading": "におい",
+    "meaning": "odeur",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0130",
+    "kanji": "興味",
+    "reading": "きょうみ",
+    "meaning": "intérêt",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788393600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0131",
+    "kanji": "様",
+    "reading": "さま",
+    "meaning": "suffixe honorifique très respectueux",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0132",
+    "kanji": "親友",
+    "reading": "しんゆう",
+    "meaning": "meilleur ami",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0133",
+    "kanji": "開ける",
+    "reading": "あける",
+    "meaning": "ouvrir",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0134",
+    "kanji": "香水",
+    "reading": "こうすい",
+    "meaning": "parfum",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0135",
+    "kanji": "ので",
+    "reading": "ので",
+    "meaning": "parce que / comme (raison)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0136",
+    "kanji": "特別",
+    "reading": "とくべつ",
+    "meaning": "spécial / exceptionnel",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788998400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0137",
+    "kanji": "故郷",
+    "reading": "こきょう",
+    "meaning": "ville natale",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1787875200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0138",
+    "kanji": "倒す",
+    "reading": "たおす",
+    "meaning": "vaincre / renverser",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0139",
+    "kanji": "質問",
+    "reading": "しつもん",
+    "meaning": "question",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0140",
+    "kanji": "船",
+    "reading": "ふね",
+    "meaning": "bateau",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786147200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0141",
+    "kanji": "王",
+    "reading": "おう",
+    "meaning": "roi",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786060800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0142",
+    "kanji": "伝言",
+    "reading": "でんごん",
+    "meaning": "message (transmis)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0143",
+    "kanji": "材料",
+    "reading": "ざいりょう",
+    "meaning": "matériaux / ingrédients",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "renforcement"
+  },
+  {
+    "id": "w0144",
+    "kanji": "失望",
+    "reading": "しつぼう",
+    "meaning": "déception",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786060800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0145",
+    "kanji": "頂戴",
+    "reading": "ちょうだい",
+    "meaning": "donne-moi (familier)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786147200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0146",
+    "kanji": "評判",
+    "reading": "ひょうばん",
+    "meaning": "réputation",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0147",
+    "kanji": "妖精",
+    "reading": "ようせい",
+    "meaning": "fée / esprit",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0148",
+    "kanji": "会計",
+    "reading": "かいけい",
+    "meaning": "addition / comptabilité",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1786060800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0149",
+    "kanji": "患者",
+    "reading": "かんじゃ",
+    "meaning": "patient (médical)",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0150",
+    "kanji": "我が社",
+    "reading": "わがしゃ",
+    "meaning": "notre entreprise",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0151",
+    "kanji": "Uターン",
+    "reading": "ゆーたーん",
+    "meaning": "demi-tour",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0152",
+    "kanji": "逆",
+    "reading": "ぎゃく",
+    "meaning": "contraire / inverse",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788998400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0153",
+    "kanji": "共通語",
+    "reading": "きょうつうご",
+    "meaning": "langue commune",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0154",
+    "kanji": "仲良く",
+    "reading": "なかよく",
+    "meaning": "en bonne entente",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0155",
+    "kanji": "～なければならない",
+    "reading": "なければならない",
+    "meaning": "devoir / être obligé de",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0156",
+    "kanji": "反対",
+    "reading": "はんたい",
+    "meaning": "opposition / contraire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0157",
+    "kanji": "老人",
+    "reading": "ろうじん",
+    "meaning": "personne âgée",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0158",
+    "kanji": "突き当り",
+    "reading": "つきあたり",
+    "meaning": "bout d'une rue",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0159",
+    "kanji": "方向",
+    "reading": "ほうこう",
+    "meaning": "direction",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0160",
+    "kanji": "振り返る",
+    "reading": "ふりかえる",
+    "meaning": "se retourner",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0161",
+    "kanji": "直進",
+    "reading": "ちょくしん",
+    "meaning": "aller tout droit",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0162",
+    "kanji": "軍隊",
+    "reading": "ぐんたい",
+    "meaning": "armée",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0163",
+    "kanji": "成長",
+    "reading": "せいちょう",
+    "meaning": "croissance / développement",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787702400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0164",
+    "kanji": "十字路",
+    "reading": "じゅうじろ",
+    "meaning": "carrefour en croix",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0165",
+    "kanji": "症状",
+    "reading": "しょうじょう",
+    "meaning": "symptôme",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0166",
+    "kanji": "横断歩道",
+    "reading": "おうだんほどう",
+    "meaning": "passage piéton",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0167",
+    "kanji": "歩道橋",
+    "reading": "ほどうきょう",
+    "meaning": "passerelle piétonne",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1789084800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0168",
+    "kanji": "右側",
+    "reading": "みぎがわ",
+    "meaning": "côté droit",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0169",
+    "kanji": "注意",
+    "reading": "ちゅうい",
+    "meaning": "attention / avertissement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0170",
+    "kanji": "出口",
+    "reading": "でぐち",
+    "meaning": "sortie",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0171",
+    "kanji": "左側",
+    "reading": "ひだりがわ",
+    "meaning": "côté gauche",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0172",
+    "kanji": "ずっと",
+    "reading": "ずっと",
+    "meaning": "tout le temps / depuis longtemps",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0173",
+    "kanji": "交差点",
+    "reading": "こうさてん",
+    "meaning": "carrefour / intersection",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0174",
+    "kanji": "感じる",
+    "reading": "かんじる",
+    "meaning": "ressentir / sentir",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0175",
+    "kanji": "青信号",
+    "reading": "あおしんごう",
+    "meaning": "feu vert",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788566400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0176",
+    "kanji": "入り口",
+    "reading": "いりぐち",
+    "meaning": "entrée",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0177",
+    "kanji": "約束",
+    "reading": "やくそく",
+    "meaning": "promesse / rendez-vous",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0178",
+    "kanji": "交番",
+    "reading": "こうばん",
+    "meaning": "poste de police (quartier)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0179",
+    "kanji": "呉れる",
+    "reading": "くれる",
+    "meaning": "donner (à moi/mon groupe)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0180",
+    "kanji": "信号",
+    "reading": "しんごう",
+    "meaning": "feu de circulation / signal",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0181",
+    "kanji": "協力",
+    "reading": "きょうりょく",
+    "meaning": "coopération",
+    "error_count": 8,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0182",
+    "kanji": "戦場",
+    "reading": "せんじょう",
+    "meaning": "champ de bataille",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1787702400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0183",
+    "kanji": "落ち込む",
+    "reading": "おちこむ",
+    "meaning": "déprimer / être abattu",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0184",
+    "kanji": "渡る",
+    "reading": "わたる",
+    "meaning": "traverser",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0185",
+    "kanji": "赤信号",
+    "reading": "あかしんごう",
+    "meaning": "feu rouge",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0186",
+    "kanji": "横目",
+    "reading": "よこめ",
+    "meaning": "regard de côté",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0187",
+    "kanji": "巡査",
+    "reading": "じゅんさ",
+    "meaning": "agent de police",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0188",
+    "kanji": "体",
+    "reading": "からだ",
+    "meaning": "corps",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0189",
+    "kanji": "動画",
+    "reading": "どうが",
+    "meaning": "vidéo",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0190",
+    "kanji": "市長",
+    "reading": "しちょう",
+    "meaning": "maire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0191",
+    "kanji": "是非",
+    "reading": "ぜひ",
+    "meaning": "absolument / à tout prix",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0192",
+    "kanji": "真直ぐ",
+    "reading": "まっすぐ",
+    "meaning": "tout droit / directement",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0193",
+    "kanji": "お湯",
+    "reading": "おゆ",
+    "meaning": "eau chaude",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0194",
+    "kanji": "言語",
+    "reading": "げんご",
+    "meaning": "langue / langage",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0195",
+    "kanji": "外国",
+    "reading": "がいこく",
+    "meaning": "pays étranger",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0196",
+    "kanji": "退学",
+    "reading": "たいがく",
+    "meaning": "renvoi / abandon des études",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0197",
+    "kanji": "人数",
+    "reading": "にんずう",
+    "meaning": "nombre de personnes",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787011200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0198",
+    "kanji": "消しゴム",
+    "reading": "けしごむ",
+    "meaning": "gomme (à effacer)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0199",
+    "kanji": "配る",
+    "reading": "くばる",
+    "meaning": "distribuer",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788998400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0200",
+    "kanji": "下さい",
+    "reading": "ください",
+    "meaning": "s'il vous plaît / donnez-moi",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0201",
+    "kanji": "瓦斯",
+    "reading": "がす",
+    "meaning": "gaz",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0202",
+    "kanji": "説明書",
+    "reading": "せつめいしょ",
+    "meaning": "mode d'emploi / notice",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0203",
+    "kanji": "お手洗い",
+    "reading": "おてあらい",
+    "meaning": "toilettes (poli)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785542400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0204",
+    "kanji": "認める",
+    "reading": "みとめる",
+    "meaning": "reconnaître / admettre",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0205",
+    "kanji": "大麻",
+    "reading": "たいま",
+    "meaning": "marijuana / cannabis",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0206",
+    "kanji": "誘う",
+    "reading": "さそう",
+    "meaning": "inviter / inciter",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0207",
+    "kanji": "被害",
+    "reading": "ひがい",
+    "meaning": "dommage / dégâts",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0208",
+    "kanji": "避ける",
+    "reading": "さける",
+    "meaning": "éviter",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0209",
+    "kanji": "解決",
+    "reading": "かいけつ",
+    "meaning": "résolution / solution",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785542400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0210",
+    "kanji": "夕食",
+    "reading": "ゆうしょく",
+    "meaning": "dîner",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788393600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0211",
+    "kanji": "無視",
+    "reading": "むし",
+    "meaning": "ignorer / mépris",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0212",
+    "kanji": "支度",
+    "reading": "したく",
+    "meaning": "préparatifs",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0213",
+    "kanji": "飯",
+    "reading": "めし",
+    "meaning": "riz cuit / repas (familier)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785456000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0214",
+    "kanji": "否定",
+    "reading": "ひてい",
+    "meaning": "négation / démenti",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1785715200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0215",
+    "kanji": "種類",
+    "reading": "しゅるい",
+    "meaning": "type / catégorie",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0216",
+    "kanji": "肌",
+    "reading": "はだ",
+    "meaning": "peau",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785456000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0217",
+    "kanji": "全く",
+    "reading": "まったく",
+    "meaning": "complètement / absolument",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0218",
+    "kanji": "宗教",
+    "reading": "しゅうきょう",
+    "meaning": "religion",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0219",
+    "kanji": "電気",
+    "reading": "でんき",
+    "meaning": "électricité",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785369600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0220",
+    "kanji": "遠慮",
+    "reading": "えんりょ",
+    "meaning": "retenue / discrétion",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785801600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0221",
+    "kanji": "棚",
+    "reading": "たな",
+    "meaning": "étagère",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785369600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0222",
+    "kanji": "でしょう",
+    "reading": "でしょう",
+    "meaning": "il semble que / je pense",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785369600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0223",
+    "kanji": "御 (go)",
+    "reading": "ご",
+    "meaning": "préfixe honorifique poli",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785369600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0224",
+    "kanji": "消毒",
+    "reading": "しょうどく",
+    "meaning": "désinfection",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0225",
+    "kanji": "以下",
+    "reading": "いか",
+    "meaning": "ci-dessous / inférieur ou égal à",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788134400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0226",
+    "kanji": "遗体",
+    "reading": "いたい",
+    "meaning": "corps (défunt) / dépouille",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785369600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0227",
+    "kanji": "地面",
+    "reading": "じめん",
+    "meaning": "sol / surface de la terre",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788566400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0228",
+    "kanji": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meaning": "bureau de poste",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0229",
+    "kanji": "主",
+    "reading": "ぬし",
+    "meaning": "maître / propriétaire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0230",
+    "kanji": "中毒",
+    "reading": "ちゅうどく",
+    "meaning": "intoxication / addiction",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0231",
+    "kanji": "美しい",
+    "reading": "うつくしい",
+    "meaning": "beau / magnifique",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0232",
+    "kanji": "休暇",
+    "reading": "きゅうか",
+    "meaning": "congé / vacances",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786406400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0233",
+    "kanji": "博士",
+    "reading": "はかせ",
+    "meaning": "docteur / expert",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0234",
+    "kanji": "隊長",
+    "reading": "たいちょう",
+    "meaning": "chef d'équipe",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0235",
+    "kanji": "御",
+    "reading": "お",
+    "meaning": "préfixe honorifique",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0236",
+    "kanji": "番号",
+    "reading": "ばんごう",
+    "meaning": "numéro",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0237",
+    "kanji": "問い",
+    "reading": "とい",
+    "meaning": "question (formel)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786233600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0238",
+    "kanji": "麻薬",
+    "reading": "まやく",
+    "meaning": "drogue / stupéfiant",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787961600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0239",
+    "kanji": "追う",
+    "reading": "おう",
+    "meaning": "poursuivre / chasser",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0240",
+    "kanji": "体重",
+    "reading": "たいじゅう",
+    "meaning": "poids corporel",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0241",
+    "kanji": "悲惨",
+    "reading": "ひさん",
+    "meaning": "tragique / misérable",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0242",
+    "kanji": "頂く",
+    "reading": "いただく",
+    "meaning": "recevoir / manger (poli)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0243",
+    "kanji": "訳では無い",
+    "reading": "わけではない",
+    "meaning": "ce n'est pas que",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0244",
+    "kanji": "チップ",
+    "reading": "ちっぷ",
+    "meaning": "pourboire",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0245",
+    "kanji": "数",
+    "reading": "かず",
+    "meaning": "nombre / quantité",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0246",
+    "kanji": "選手",
+    "reading": "せんしゅ",
+    "meaning": "athlète / joueur",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0247",
+    "kanji": "豚",
+    "reading": "ぶた",
+    "meaning": "cochon / porc",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0248",
+    "kanji": "～かける (partiel)",
+    "reading": "かける",
+    "meaning": "être en train de / sur le point de",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0249",
+    "kanji": "報告",
+    "reading": "ほうこく",
+    "meaning": "rapport / compte-rendu",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0250",
+    "kanji": "飛び立つ",
+    "reading": "とびたつ",
+    "meaning": "s'envoler / décoller",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0251",
+    "kanji": "覚悧",
+    "reading": "かくご",
+    "meaning": "résolution / être prêt",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0252",
+    "kanji": "直す",
+    "reading": "なおす",
+    "meaning": "réparer / corriger",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787788800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0253",
+    "kanji": "気分",
+    "reading": "きぶん",
+    "meaning": "humeur / état d'esprit",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0254",
+    "kanji": "座り込む",
+    "reading": "すわりこむ",
+    "meaning": "s'asseoir par terre",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0255",
+    "kanji": "水槽",
+    "reading": "すいそう",
+    "meaning": "aquarium",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0256",
+    "kanji": "～かける (dirigé)",
+    "reading": "かける",
+    "meaning": "adresser une action à qqn",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0257",
+    "kanji": "貪える",
+    "reading": "もらえる",
+    "meaning": "pouvoir recevoir",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0258",
+    "kanji": "暖かい",
+    "reading": "あたたかい",
+    "meaning": "chaud / doux",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0259",
+    "kanji": "みたいに・な",
+    "reading": "みたいに",
+    "meaning": "comme / semblable à",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0260",
+    "kanji": "再来週",
+    "reading": "さらいしゅう",
+    "meaning": "dans deux semaines",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0261",
+    "kanji": "焦る",
+    "reading": "あせる",
+    "meaning": "paniquer / stresser",
+    "error_count": 8,
+    "success_count": 0,
+    "last_seen": 1787875200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0262",
+    "kanji": "私立",
+    "reading": "しりつ",
+    "meaning": "privé (école)",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0263",
+    "kanji": "鮫",
+    "reading": "さめ",
+    "meaning": "requin",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1784851200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0264",
+    "kanji": "地球",
+    "reading": "ちきゅう",
+    "meaning": "Terre (planète)",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0265",
+    "kanji": "勇敢",
+    "reading": "ゆうかん",
+    "meaning": "courageux / brave",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0266",
+    "kanji": "別れる",
+    "reading": "わかれる",
+    "meaning": "se séparer / rompre",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0267",
+    "kanji": "大人しい",
+    "reading": "おとなしい",
+    "meaning": "calme / docile / sage",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0268",
+    "kanji": "何で",
+    "reading": "なんで",
+    "meaning": "pourquoi (familier)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0269",
+    "kanji": "古い",
+    "reading": "ふるい",
+    "meaning": "vieux / ancien",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0270",
+    "kanji": "モデル",
+    "reading": "もでる",
+    "meaning": "modèle / mannequin",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0271",
+    "kanji": "場",
+    "reading": "ば",
+    "meaning": "lieu / occasion",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0272",
+    "kanji": "騒がしい",
+    "reading": "さわがしい",
+    "meaning": "bruyant / tapageur",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0273",
+    "kanji": "逃捕",
+    "reading": "たいほ",
+    "meaning": "arrestation",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0274",
+    "kanji": "書き込む",
+    "reading": "かきこむ",
+    "meaning": "écrire dedans / poster",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0275",
+    "kanji": "一般",
+    "reading": "いっぱん",
+    "meaning": "général / commun",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786060800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0276",
+    "kanji": "引き算",
+    "reading": "ひきざん",
+    "meaning": "soustraction",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784851200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0277",
+    "kanji": "時代",
+    "reading": "じだい",
+    "meaning": "époque / ère",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0278",
+    "kanji": "冊",
+    "reading": "さつ",
+    "meaning": "compteur livres",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0279",
+    "kanji": "予感",
+    "reading": "よかん",
+    "meaning": "pressentiment",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0280",
+    "kanji": "蟇",
+    "reading": "へび",
+    "meaning": "serpent",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0281",
+    "kanji": "直す (refaire)",
+    "reading": "なおす",
+    "meaning": "refaire une action",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0282",
+    "kanji": "午後",
+    "reading": "ごご",
+    "meaning": "après-midi",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0283",
+    "kanji": "頃",
+    "reading": "ころ",
+    "meaning": "période / vers",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784851200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0284",
+    "kanji": "3冊",
+    "reading": "さんさつ",
+    "meaning": "3 exemplaires",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0285",
+    "kanji": "頁",
+    "reading": "へめーじ",
+    "meaning": "page",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0286",
+    "kanji": "下着",
+    "reading": "したぎ",
+    "meaning": "sous-vêtements",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0287",
+    "kanji": "離れる",
+    "reading": "はなれる",
+    "meaning": "s'éloigner",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0288",
+    "kanji": "自慢",
+    "reading": "じまん",
+    "meaning": "fierté / vantardise",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788134400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0289",
+    "kanji": "追加",
+    "reading": "ついか",
+    "meaning": "ajout / supplément",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0290",
+    "kanji": "賞金",
+    "reading": "しょうきん",
+    "meaning": "prix en argent",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0291",
+    "kanji": "です",
+    "reading": "です",
+    "meaning": "verbe être (copule)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1784851200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0292",
+    "kanji": "漢字",
+    "reading": "かんじ",
+    "meaning": "kanji",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0293",
+    "kanji": "1枚",
+    "reading": "いちまい",
+    "meaning": "1 exemplaire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784851200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0294",
+    "kanji": "機械",
+    "reading": "きかい",
+    "meaning": "machine",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788134400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0295",
+    "kanji": "腹が減る",
+    "reading": "はらがへる",
+    "meaning": "avoir faim",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0296",
+    "kanji": "かけ (en cours)",
+    "reading": "かけ",
+    "meaning": "action commencée en cours",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0297",
+    "kanji": "役立つ",
+    "reading": "やくだつ",
+    "meaning": "être utile",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0298",
+    "kanji": "時間をかける",
+    "reading": "じかんをかける",
+    "meaning": "prendre son temps",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0299",
+    "kanji": "汚す",
+    "reading": "よごす",
+    "meaning": "salir",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788825600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0300",
+    "kanji": "詐欺",
+    "reading": "さぎ",
+    "meaning": "arnaque",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1789084800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0301",
+    "kanji": "算数",
+    "reading": "さんすう",
+    "meaning": "arithmétique",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0302",
+    "kanji": "育てる",
+    "reading": "そだてる",
+    "meaning": "élever / éduquer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0303",
+    "kanji": "足し算",
+    "reading": "たしざん",
+    "meaning": "addition",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788825600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0304",
+    "kanji": "線",
+    "reading": "せん",
+    "meaning": "ligne / trait",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0305",
+    "kanji": "底",
+    "reading": "そこ",
+    "meaning": "fond (récipient)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0306",
+    "kanji": "角",
+    "reading": "かど",
+    "meaning": "coin / angle",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784851200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0307",
+    "kanji": "段ボール",
+    "reading": "だんぼーる",
+    "meaning": "carton d'emballage",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0308",
+    "kanji": "痩る",
+    "reading": "やせる",
+    "meaning": "maigrir",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0309",
+    "kanji": "苦労",
+    "reading": "くろう",
+    "meaning": "peine / difficulté",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0310",
+    "kanji": "もう直ぐ",
+    "reading": "もうすぐ",
+    "meaning": "bientôt",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0311",
+    "kanji": "魂",
+    "reading": "たましい",
+    "meaning": "âme / esprit",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0312",
+    "kanji": "説明",
+    "reading": "せつめい",
+    "meaning": "explication",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0313",
+    "kanji": "天使",
+    "reading": "てんし",
+    "meaning": "ange",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0314",
+    "kanji": "従兄",
+    "reading": "いとこ",
+    "meaning": "cousin",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0315",
+    "kanji": "助け",
+    "reading": "たすけ",
+    "meaning": "aide / secours",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0316",
+    "kanji": "偶に",
+    "reading": "たまに",
+    "meaning": "de temps en temps",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0317",
+    "kanji": "弟子",
+    "reading": "でし",
+    "meaning": "disciple",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1787616000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0318",
+    "kanji": "一昨日",
+    "reading": "おととい",
+    "meaning": "avant-hier",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784937600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0319",
+    "kanji": "伸ばす",
+    "reading": "のばす",
+    "meaning": "étirer / prolonger",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0320",
+    "kanji": "軽い",
+    "reading": "かるい",
+    "meaning": "léger",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0321",
+    "kanji": "懷かしむ",
+    "reading": "なつかしむ",
+    "meaning": "éprouver de la nostalgie",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0322",
+    "kanji": "激しい",
+    "reading": "はげしい",
+    "meaning": "intense / violent",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0323",
+    "kanji": "無料",
+    "reading": "むりょう",
+    "meaning": "gratuit",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784937600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0324",
+    "kanji": "同僚",
+    "reading": "どうりょう",
+    "meaning": "collègue",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "renforcement"
+  },
+  {
+    "id": "w0325",
+    "kanji": "出前",
+    "reading": "でまえ",
+    "meaning": "livraison de repas",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784419200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0326",
+    "kanji": "笑う",
+    "reading": "わらう",
+    "meaning": "rire / sourire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0327",
+    "kanji": "任せる",
+    "reading": "まかせる",
+    "meaning": "confier / déléguer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0328",
+    "kanji": "試験",
+    "reading": "しけん",
+    "meaning": "examen / test",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0329",
+    "kanji": "除く",
+    "reading": "のぞく",
+    "meaning": "exclure / retirer",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788566400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0330",
+    "kanji": "立場",
+    "reading": "たちば",
+    "meaning": "position / point de vue",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0331",
+    "kanji": "訳ではない",
+    "reading": "わけではない",
+    "meaning": "ce n'est pas que",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0332",
+    "kanji": "限界",
+    "reading": "げんかい",
+    "meaning": "limite / seuil",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783555200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0333",
+    "kanji": "に決まってる",
+    "reading": "にきまってる",
+    "meaning": "c'est sûr et certain",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783987200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0334",
+    "kanji": "何処",
+    "reading": "どこ",
+    "meaning": "où",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0335",
+    "kanji": "球技",
+    "reading": "きゅうぎ",
+    "meaning": "sport de balle",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0336",
+    "kanji": "世話",
+    "reading": "せわ",
+    "meaning": "soin / aide",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0337",
+    "kanji": "油を売る",
+    "reading": "あぶらをうる",
+    "meaning": "flâner au travail",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0338",
+    "kanji": "嗽",
+    "reading": "うがい",
+    "meaning": "gargarisme",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783814400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0339",
+    "kanji": "進める",
+    "reading": "すすめる",
+    "meaning": "faire avancer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0340",
+    "kanji": "自信",
+    "reading": "じしん",
+    "meaning": "confiance en soi",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0341",
+    "kanji": "別に～ない",
+    "reading": "べつにない",
+    "meaning": "pas particulièrement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0342",
+    "kanji": "謝る",
+    "reading": "あやまる",
+    "meaning": "s'excuser",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0343",
+    "kanji": "今時",
+    "reading": "いまどき",
+    "meaning": "de nos jours",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783987200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0344",
+    "kanji": "経営",
+    "reading": "けいえい",
+    "meaning": "gestion d'entreprise",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0345",
+    "kanji": "乾杯",
+    "reading": "かんぱい",
+    "meaning": "santé / trinquons",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0346",
+    "kanji": "呼び出す",
+    "reading": "よびだす",
+    "meaning": "convoquer / appeler",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0347",
+    "kanji": "乗り換え",
+    "reading": "のりかえ",
+    "meaning": "correspondance transport",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783987200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0348",
+    "kanji": "地域",
+    "reading": "ちいき",
+    "meaning": "région / zone",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0349",
+    "kanji": "尻尾",
+    "reading": "しっぽ",
+    "meaning": "queue (animal)",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0350",
+    "kanji": "冷める",
+    "reading": "さめる",
+    "meaning": "refroidir / se dissiper",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783468800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0351",
+    "kanji": "徘徊",
+    "reading": "はいかい",
+    "meaning": "errer sans but",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0352",
+    "kanji": "事態",
+    "reading": "じたい",
+    "meaning": "situation / état des choses",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1787875200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0353",
+    "kanji": "長い",
+    "reading": "ながい",
+    "meaning": "long",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0354",
+    "kanji": "途中",
+    "reading": "とちゅう",
+    "meaning": "en cours de route",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783987200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0355",
+    "kanji": "同じ",
+    "reading": "おなじ",
+    "meaning": "même / identique",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0356",
+    "kanji": "作業",
+    "reading": "さぎょう",
+    "meaning": "travail / tâche",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783814400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0357",
+    "kanji": "殆ど",
+    "reading": "ほとんど",
+    "meaning": "presque / quasiment",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783555200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0358",
+    "kanji": "醤油",
+    "reading": "しょうゆ",
+    "meaning": "sauce soja",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0359",
+    "kanji": "屹度",
+    "reading": "きっと",
+    "meaning": "sûrement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0360",
+    "kanji": "重要",
+    "reading": "じゅうよう",
+    "meaning": "important",
+    "error_count": 8,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0361",
+    "kanji": "薬品",
+    "reading": "やくひん",
+    "meaning": "produit pharmaceutique",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785196800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0362",
+    "kanji": "男女",
+    "reading": "だんじょ",
+    "meaning": "hommes et femmes",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788393600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0363",
+    "kanji": "別に",
+    "reading": "べつに",
+    "meaning": "chacun séparément",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0364",
+    "kanji": "卵焼き",
+    "reading": "たまごやき",
+    "meaning": "omelette japonaise",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0365",
+    "kanji": "楽",
+    "reading": "らく",
+    "meaning": "facile / confortable",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0366",
+    "kanji": "白い",
+    "reading": "しろい",
+    "meaning": "blanc",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0367",
+    "kanji": "面接",
+    "reading": "めんせつ",
+    "meaning": "entretien d'embauche",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0368",
+    "kanji": "ゴミ拾い",
+    "reading": "ごみひろい",
+    "meaning": "ramassage des déchets",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0369",
+    "kanji": "番号",
+    "reading": "ばんごう",
+    "meaning": "numéro",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0370",
+    "kanji": "堪る",
+    "reading": "たまる",
+    "meaning": "supporter / endurer",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785024000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0371",
+    "kanji": "ちゃんと",
+    "reading": "ちゃんと",
+    "meaning": "correctement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783814400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0372",
+    "kanji": "撮る",
+    "reading": "とる",
+    "meaning": "prendre (photo)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783814400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0373",
+    "kanji": "恨み",
+    "reading": "うらみ",
+    "meaning": "rancune",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0374",
+    "kanji": "危機",
+    "reading": "きき",
+    "meaning": "crise / danger",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0375",
+    "kanji": "とは別に",
+    "reading": "とはべつに",
+    "meaning": "à part / indépendamment de",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784505600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0376",
+    "kanji": "緑",
+    "reading": "みどり",
+    "meaning": "vert / verdure",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783468800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0377",
+    "kanji": "正面",
+    "reading": "しょうめん",
+    "meaning": "face avant",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0378",
+    "kanji": "叶う",
+    "reading": "かなう",
+    "meaning": "se réaliser",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0379",
+    "kanji": "時には",
+    "reading": "ときには",
+    "meaning": "parfois",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0380",
+    "kanji": "咳",
+    "reading": "せき",
+    "meaning": "toux",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0381",
+    "kanji": "届く",
+    "reading": "とどく",
+    "meaning": "arriver / atteindre",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0382",
+    "kanji": "余る",
+    "reading": "あまる",
+    "meaning": "rester / être en surplus",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786060800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0383",
+    "kanji": "人質",
+    "reading": "ひとじち",
+    "meaning": "otage",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0384",
+    "kanji": "易しい",
+    "reading": "やさしい",
+    "meaning": "facile / simple",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0385",
+    "kanji": "嘘",
+    "reading": "うそ",
+    "meaning": "mensonge",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0386",
+    "kanji": "役に立つ",
+    "reading": "やくにたつ",
+    "meaning": "être utile",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786752000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0387",
+    "kanji": "成程",
+    "reading": "なるほど",
+    "meaning": "je vois / effectivement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0388",
+    "kanji": "サボる",
+    "reading": "さぼる",
+    "meaning": "sécher / tirer au flanc",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0389",
+    "kanji": "温める",
+    "reading": "あたためる",
+    "meaning": "réchauffer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0390",
+    "kanji": "夫",
+    "reading": "おっと",
+    "meaning": "mari / époux",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0391",
+    "kanji": "以内",
+    "reading": "いない",
+    "meaning": "dans / en-deçà de",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783555200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0392",
+    "kanji": "西洋風",
+    "reading": "せいようふう",
+    "meaning": "style occidental",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1787356800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0393",
+    "kanji": "縦",
+    "reading": "たて",
+    "meaning": "vertical",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0394",
+    "kanji": "玄関",
+    "reading": "げんかん",
+    "meaning": "entrée (maison)",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0395",
+    "kanji": "気",
+    "reading": "き",
+    "meaning": "esprit / énergie",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0396",
+    "kanji": "先ず",
+    "reading": "まず",
+    "meaning": "d'abord / en tout cas",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0397",
+    "kanji": "優勝",
+    "reading": "ゆうしょう",
+    "meaning": "victoire championnat",
+    "error_count": 9,
+    "success_count": 0,
+    "last_seen": 1787443200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0398",
+    "kanji": "壺",
+    "reading": "つぼ",
+    "meaning": "pot / vase / jarre",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783641600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0399",
+    "kanji": "断る",
+    "reading": "ことわる",
+    "meaning": "refuser",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1785542400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0400",
+    "kanji": "カレーライス",
+    "reading": "かれーらいす",
+    "meaning": "riz au curry",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0401",
+    "kanji": "目的",
+    "reading": "もくてき",
+    "meaning": "objectif / but",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1785542400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0402",
+    "kanji": "感謝",
+    "reading": "かんしゃ",
+    "meaning": "gratitude",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0403",
+    "kanji": "休憩",
+    "reading": "きゅうけい",
+    "meaning": "pause / repos",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0404",
+    "kanji": "以外",
+    "reading": "いがい",
+    "meaning": "à l'exception de",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783555200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0405",
+    "kanji": "正式",
+    "reading": "せいしき",
+    "meaning": "officiel / formel",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788393600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0406",
+    "kanji": "戦う",
+    "reading": "たたかう",
+    "meaning": "se battre / combattre",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "renforcement"
+  },
+  {
+    "id": "w0407",
+    "kanji": "ドライブ",
+    "reading": "どらいぶ",
+    "meaning": "balade en voiture",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0408",
+    "kanji": "緊張",
+    "reading": "きんちょう",
+    "meaning": "tension / nervosité",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0409",
+    "kanji": "多分",
+    "reading": "たぶん",
+    "meaning": "probablement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0410",
+    "kanji": "平気",
+    "reading": "へいき",
+    "meaning": "indifférent / pas grave",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786665600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0411",
+    "kanji": "好物",
+    "reading": "こうぶつ",
+    "meaning": "plat préféré",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0412",
+    "kanji": "入浴",
+    "reading": "にゅうよく",
+    "meaning": "prendre un bain",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0413",
+    "kanji": "油",
+    "reading": "あぶら",
+    "meaning": "huile",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0414",
+    "kanji": "表情",
+    "reading": "ひょうじょう",
+    "meaning": "expression du visage",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0415",
+    "kanji": "本気",
+    "reading": "ほんき",
+    "meaning": "sérieux / vraiment",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783987200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0416",
+    "kanji": "工事",
+    "reading": "こうじ",
+    "meaning": "travaux",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0417",
+    "kanji": "品",
+    "reading": "ひん",
+    "meaning": "classe / élégance",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0418",
+    "kanji": "隠れる",
+    "reading": "かくれる",
+    "meaning": "se cacher",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0419",
+    "kanji": "分数",
+    "reading": "ぶんすう",
+    "meaning": "fraction mathématique",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0420",
+    "kanji": "プリン",
+    "reading": "ぷりん",
+    "meaning": "flan / pudding",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1784160000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0421",
+    "kanji": "調べる",
+    "reading": "しらべる",
+    "meaning": "enquêter / vérifier",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788480000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0422",
+    "kanji": "通う",
+    "reading": "かよう",
+    "meaning": "fréquenter régulièrement",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785888000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0423",
+    "kanji": "何故",
+    "reading": "なぜ",
+    "meaning": "pourquoi",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0424",
+    "kanji": "どうして",
+    "reading": "どうして",
+    "meaning": "pourquoi / comment (soutenu)",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0425",
+    "kanji": "炎",
+    "reading": "ほのお",
+    "meaning": "flamme",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0426",
+    "kanji": "超",
+    "reading": "ちょう",
+    "meaning": "super / hyper (préfixe)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0427",
+    "kanji": "流す",
+    "reading": "ながす",
+    "meaning": "faire couler / évacuer",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0428",
+    "kanji": "カレー",
+    "reading": "かれー",
+    "meaning": "curry",
+    "error_count": 0,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0429",
+    "kanji": "シャツ",
+    "reading": "しゃつ",
+    "meaning": "chemise / t-shirt",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0430",
+    "kanji": "円周率",
+    "reading": "えんしゅうりつ",
+    "meaning": "pi (mathématiques)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0431",
+    "kanji": "現れる",
+    "reading": "あらわれる",
+    "meaning": "apparaître / se manifester",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786492800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0432",
+    "kanji": "信頼",
+    "reading": "しんらい",
+    "meaning": "confiance / fiabilité",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0433",
+    "kanji": "溶ける",
+    "reading": "とける",
+    "meaning": "fondre / se dissoudre",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788048000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0434",
+    "kanji": "涙",
+    "reading": "なみだ",
+    "meaning": "larme",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0435",
+    "kanji": "狭い",
+    "reading": "せまい",
+    "meaning": "étroit / exigu",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1786147200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0436",
+    "kanji": "気絶",
+    "reading": "きぜつ",
+    "meaning": "évanouissement",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0437",
+    "kanji": "独り言",
+    "reading": "ひとりごと",
+    "meaning": "monologue",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785628800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0438",
+    "kanji": "給料",
+    "reading": "きゅうりょう",
+    "meaning": "salaire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782864000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0439",
+    "kanji": "続き",
+    "reading": "つづき",
+    "meaning": "suite",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783209600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0440",
+    "kanji": "特に",
+    "reading": "とくに",
+    "meaning": "en particulier",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0441",
+    "kanji": "選択",
+    "reading": "せんたく",
+    "meaning": "choix",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0442",
+    "kanji": "侪入",
+    "reading": "しんにゅう",
+    "meaning": "intrusion",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0443",
+    "kanji": "ドア",
+    "reading": "どあ",
+    "meaning": "porte (emprunt)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782777600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0444",
+    "kanji": "不幸",
+    "reading": "ふこう",
+    "meaning": "malheur",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786579200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0445",
+    "kanji": "咲く",
+    "reading": "さく",
+    "meaning": "fleurir",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782777600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0446",
+    "kanji": "罪",
+    "reading": "つみ",
+    "meaning": "crime / péché",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787270400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0447",
+    "kanji": "離婚",
+    "reading": "りこん",
+    "meaning": "divorce",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783382400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0448",
+    "kanji": "辺",
+    "reading": "へん",
+    "meaning": "coin / environs",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1789084800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0449",
+    "kanji": "維持",
+    "reading": "いじ",
+    "meaning": "maintien",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786147200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0450",
+    "kanji": "寢坊",
+    "reading": "ねぼう",
+    "meaning": "grasse matinée",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784332800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0451",
+    "kanji": "理想",
+    "reading": "りそう",
+    "meaning": "idéal",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0452",
+    "kanji": "絺麗好き",
+    "reading": "きれいずき",
+    "meaning": "maniaque propreté",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783209600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0453",
+    "kanji": "確か",
+    "reading": "たしか",
+    "meaning": "certain / sûr",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785974400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0454",
+    "kanji": "孫",
+    "reading": "まご",
+    "meaning": "petit-enfant",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1788220800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0455",
+    "kanji": "側",
+    "reading": "がわ",
+    "meaning": "côté",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0456",
+    "kanji": "風",
+    "reading": "かぜ",
+    "meaning": "vent / rhume",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782777600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0457",
+    "kanji": "音",
+    "reading": "おと",
+    "meaning": "son / bruit",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1784937600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0458",
+    "kanji": "勝手",
+    "reading": "かって",
+    "meaning": "à sa guise",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783036800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0459",
+    "kanji": "似合う",
+    "reading": "にあう",
+    "meaning": "aller bien à",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783296000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0460",
+    "kanji": "幼い",
+    "reading": "おさない",
+    "meaning": "jeune / enfantin",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1787702400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0461",
+    "kanji": "生",
+    "reading": "なま",
+    "meaning": "cru / brut",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785456000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0462",
+    "kanji": "死体",
+    "reading": "したい",
+    "meaning": "cadavre",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783209600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0463",
+    "kanji": "観る",
+    "reading": "みる",
+    "meaning": "regarder (formel)",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782777600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0464",
+    "kanji": "有難う",
+    "reading": "ありがとう",
+    "meaning": "merci",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782864000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0465",
+    "kanji": "回復",
+    "reading": "かいふく",
+    "meaning": "récupération",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0466",
+    "kanji": "事件",
+    "reading": "じけん",
+    "meaning": "incident / affaire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783382400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0467",
+    "kanji": "景色",
+    "reading": "けしき",
+    "meaning": "paysage",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1786147200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0468",
+    "kanji": "滅茶",
+    "reading": "めっちゃ",
+    "meaning": "vachement",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782864000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0469",
+    "kanji": "体調",
+    "reading": "たいちょう",
+    "meaning": "état de santé",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783814400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0470",
+    "kanji": "大分",
+    "reading": "だいぶ",
+    "meaning": "beaucoup",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783382400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0471",
+    "kanji": "殿",
+    "reading": "との",
+    "meaning": "seigneur",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1783036800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0472",
+    "kanji": "的",
+    "reading": "てき",
+    "meaning": "suffixe -ique",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783900800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0473",
+    "kanji": "合格",
+    "reading": "ごうかく",
+    "meaning": "réussite examen",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786320000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0474",
+    "kanji": "空っぽ",
+    "reading": "からっぽ",
+    "meaning": "vide / creux",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782345600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0475",
+    "kanji": "武器",
+    "reading": "ぶき",
+    "meaning": "arme",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782604800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0476",
+    "kanji": "教わる",
+    "reading": "おそわる",
+    "meaning": "être enseigné",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787616000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0477",
+    "kanji": "間違い",
+    "reading": "まちがい",
+    "meaning": "erreur",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782604800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0478",
+    "kanji": "沈む",
+    "reading": "しずむ",
+    "meaning": "couler / sombrer",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786147200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0479",
+    "kanji": "慌てる",
+    "reading": "あわてる",
+    "meaning": "s'affoler",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0480",
+    "kanji": "集まる",
+    "reading": "あつまる",
+    "meaning": "se rassembler",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784246400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0481",
+    "kanji": "副業",
+    "reading": "ふくぎょう",
+    "meaning": "travail secondaire",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785542400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0482",
+    "kanji": "決める",
+    "reading": "きめる",
+    "meaning": "décider / fixer",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1781740800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0483",
+    "kanji": "予習",
+    "reading": "よしゅう",
+    "meaning": "préparation d'un cours",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1787184000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0484",
+    "kanji": "理解",
+    "reading": "りかい",
+    "meaning": "compréhension",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1784592000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0485",
+    "kanji": "位",
+    "reading": "ぐらい",
+    "meaning": "environ",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0486",
+    "kanji": "光",
+    "reading": "ひかり",
+    "meaning": "lumière",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783382400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0487",
+    "kanji": "正直",
+    "reading": "しょうじき",
+    "meaning": "honnête",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1785283200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0488",
+    "kanji": "勿体ない",
+    "reading": "もったいない",
+    "meaning": "gâchis",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1785542400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0489",
+    "kanji": "命",
+    "reading": "いのち",
+    "meaning": "vie / existence",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782345600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0490",
+    "kanji": "繋がる",
+    "reading": "つながる",
+    "meaning": "être relié",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782086400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0491",
+    "kanji": "笑顔",
+    "reading": "えがお",
+    "meaning": "sourire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1788998400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0492",
+    "kanji": "喫茶店",
+    "reading": "きっさてん",
+    "meaning": "café",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1785110400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0493",
+    "kanji": "学費",
+    "reading": "がくひ",
+    "meaning": "frais de scolarité",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0494",
+    "kanji": "登場",
+    "reading": "とうじょう",
+    "meaning": "entrée en scène",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0495",
+    "kanji": "不便",
+    "reading": "ふべん",
+    "meaning": "inconvénient",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782259200,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0496",
+    "kanji": "恋",
+    "reading": "こい",
+    "meaning": "amour romantique",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782345600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0497",
+    "kanji": "開く",
+    "reading": "ひらく",
+    "meaning": "ouvrir",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1782950400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0498",
+    "kanji": "村",
+    "reading": "むら",
+    "meaning": "village",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782172800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0499",
+    "kanji": "壊す",
+    "reading": "こわす",
+    "meaning": "casser",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1785369600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0500",
+    "kanji": "論文",
+    "reading": "ろんぶん",
+    "meaning": "thèse",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782432000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0501",
+    "kanji": "突然",
+    "reading": "とつぜん",
+    "meaning": "soudainement",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783728000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0502",
+    "kanji": "割れる",
+    "reading": "われる",
+    "meaning": "se casser",
+    "error_count": 7,
+    "success_count": 0,
+    "last_seen": 1789084800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0503",
+    "kanji": "手伝う",
+    "reading": "てつだう",
+    "meaning": "aider",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1781913600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0504",
+    "kanji": "見捨てる",
+    "reading": "みすてる",
+    "meaning": "abandonner",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1787788800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0505",
+    "kanji": "借金",
+    "reading": "しゃっきん",
+    "meaning": "dette",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783296000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0506",
+    "kanji": "世代",
+    "reading": "せだい",
+    "meaning": "génération",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782259200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0507",
+    "kanji": "煩い",
+    "reading": "うるさい",
+    "meaning": "bruyant",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782000000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0508",
+    "kanji": "釣り",
+    "reading": "つり",
+    "meaning": "pêche à la ligne",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1781740800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0509",
+    "kanji": "状況",
+    "reading": "じょうきょう",
+    "meaning": "situation / circonstances",
+    "error_count": 11,
+    "success_count": 0,
+    "last_seen": 1787097600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0510",
+    "kanji": "旅",
+    "reading": "たび",
+    "meaning": "voyage",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1788307200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0511",
+    "kanji": "列",
+    "reading": "れつ",
+    "meaning": "file / rangée",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782604800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0512",
+    "kanji": "叫ぶ",
+    "reading": "さけぶ",
+    "meaning": "crier / hurler",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1781740800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0513",
+    "kanji": "殺人",
+    "reading": "さつじん",
+    "meaning": "meurtre / homicide",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783382400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0514",
+    "kanji": "訳",
+    "reading": "わけ",
+    "meaning": "raison / sens",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1786924800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0515",
+    "kanji": "図鑑",
+    "reading": "ずかん",
+    "meaning": "encyclopédie illustrée",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1786838400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0516",
+    "kanji": "氷",
+    "reading": "こおり",
+    "meaning": "glace / glaçon",
+    "error_count": 5,
+    "success_count": 0,
+    "last_seen": 1785456000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0517",
+    "kanji": "空気",
+    "reading": "くうき",
+    "meaning": "air / atmosphère",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782432000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0518",
+    "kanji": "築く",
+    "reading": "きずく",
+    "meaning": "construire",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782000000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0519",
+    "kanji": "新聞",
+    "reading": "しんぶん",
+    "meaning": "journal",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782604800,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0520",
+    "kanji": "油断",
+    "reading": "ゆだん",
+    "meaning": "manque de vigilance",
+    "error_count": 6,
+    "success_count": 0,
+    "last_seen": 1788912000,
+    "statut": "normal"
+  },
+  {
+    "id": "w0521",
+    "kanji": "選ぶ",
+    "reading": "えらぶ",
+    "meaning": "choisir",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782691200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0522",
+    "kanji": "格好",
+    "reading": "かっこう",
+    "meaning": "apparence / style",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782518400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0523",
+    "kanji": "唇",
+    "reading": "くちびる",
+    "meaning": "lèvres",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1783382400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0524",
+    "kanji": "腕",
+    "reading": "うで",
+    "meaning": "bras / talent",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1781827200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0525",
+    "kanji": "不明",
+    "reading": "ふめい",
+    "meaning": "inconnu",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782345600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0526",
+    "kanji": "閉店",
+    "reading": "へいてん",
+    "meaning": "fermeture magasin",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1789171200,
+    "statut": "renforcement"
+  },
+  {
+    "id": "w0527",
+    "kanji": "実家",
+    "reading": "じっか",
+    "meaning": "maison familiale",
+    "error_count": 4,
+    "success_count": 0,
+    "last_seen": 1788739200,
+    "statut": "normal"
+  },
+  {
+    "id": "w0528",
+    "kanji": "守る",
+    "reading": "まもる",
+    "meaning": "protéger",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782345600,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0529",
+    "kanji": "奥",
+    "reading": "おく",
+    "meaning": "fond / intérieur profond",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1781913600,
+    "statut": "normal"
+  },
+  {
+    "id": "w0530",
+    "kanji": "教授",
+    "reading": "きょうじゅ",
+    "meaning": "professeur (université)",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784678400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0531",
+    "kanji": "壊れる",
+    "reading": "こわれる",
+    "meaning": "se casser (intransitif)",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1782432000,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0532",
+    "kanji": "音楽番組",
+    "reading": "おんがくばんぐみ",
+    "meaning": "émission musicale",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782086400,
+    "statut": "normal"
+  },
+  {
+    "id": "w0533",
+    "kanji": "歴史",
+    "reading": "れきし",
+    "meaning": "histoire",
+    "error_count": 2,
+    "success_count": 0,
+    "last_seen": 1783814400,
+    "statut": "vigilance"
+  },
+  {
+    "id": "w0534",
+    "kanji": "許す",
+    "reading": "ゆるす",
+    "meaning": "pardonner",
+    "error_count": 3,
+    "success_count": 0,
+    "last_seen": 1784764800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0535",
+    "kanji": "挙げる",
+    "reading": "あげる",
+    "meaning": "lever / citer",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782172800,
+    "statut": "normal"
+  },
+  {
+    "id": "w0536",
+    "kanji": "聴く",
+    "reading": "きく",
+    "meaning": "écouter",
+    "error_count": 1,
+    "success_count": 0,
+    "last_seen": 1782086400,
+    "statut": "normal"
+  }
+]

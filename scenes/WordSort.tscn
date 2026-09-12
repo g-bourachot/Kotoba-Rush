@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/WordSort.gd" id="1"]
+
+[node name="WordSort" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 96.0
+offset_bottom = 48.0
+text = "< Menu"
+
+[node name="VBox" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -160.0
+offset_right = 160.0
+offset_bottom = 160.0
+alignment = 1
+
+[node name="TimerBar" type="ProgressBar" parent="VBox"]
+layout_mode = 2
+max_value = 100.0
+value = 100.0
+show_percentage = false
+
+[node name="KanjiLabel" type="Label" parent="VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 56
+horizontal_alignment = 1
+text = "..."
+
+[node name="AnswersRow" type="HBoxContainer" parent="VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="LeftAnswer" type="Label" parent="VBox/AnswersRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+horizontal_alignment = 1
+autowrap_mode = 2
+text = "gauche"
+
+[node name="RightAnswer" type="Label" parent="VBox/AnswersRow"]
+layout_mode = 2
+size_flags_horizontal = 3
+horizontal_alignment = 1
+autowrap_mode = 2
+text = "droite"
+
+[node name="ScoreLabel" type="Label" parent="VBox"]
+layout_mode = 2
+horizontal_alignment = 1
+text = "Score : 0"
