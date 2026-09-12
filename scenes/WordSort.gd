@@ -92,6 +92,7 @@ func _start_round() -> void:
 	var decoy = WordDB.pick_decoy(current_word.get("id"))
 
 	kanji_label.text = current_word.get("kanji", "")
+	FX.punch_scale(kanji_label)
 
 	left_is_correct = randi() % 2 == 0
 	# Alterne aléatoirement entre tester la lecture et le sens.
@@ -131,9 +132,11 @@ func _resolve_round(correct: bool, chosen_side: int) -> void:
 		chosen_label = right_answer_label
 
 	if chosen_label:
-		chosen_label.modulate = Color(0.4, 0.9, 0.4) if correct else Color(0.9, 0.4, 0.4)
+		chosen_label.modulate = UITheme.COLOR_CORRECT if correct else UITheme.COLOR_WRONG
+		FX.punch_scale(chosen_label)
 	if not correct:
-		correct_label.modulate = Color(0.4, 0.6, 1.0)
+		correct_label.modulate = UITheme.COLOR_REVEAL
+		FX.shake(kanji_label)
 
 	feedback_label.text = "%s (%s) — %s" % [
 		current_word.get("kanji", ""),

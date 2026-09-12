@@ -117,6 +117,7 @@ func _start_game() -> void:
 		btn.clip_text = true
 		btn.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
 		btn.add_theme_font_size_override("font_size", 20)
+		btn.modulate = UITheme.COLOR_ACCENT_ALT
 		grid.add_child(btn)
 		card_buttons.append(btn)
 
@@ -141,6 +142,8 @@ func _on_card_pressed(idx: int) -> void:
 
 func _flip_card(idx: int, face_up: bool) -> void:
 	card_buttons[idx].text = card_text[idx] if face_up else "?"
+	card_buttons[idx].modulate = Color(1, 1, 1) if face_up else UITheme.COLOR_ACCENT_ALT
+	FX.punch_scale(card_buttons[idx], 1.15)
 
 
 func _check_match() -> void:
@@ -153,10 +156,16 @@ func _check_match() -> void:
 		card_matched[b] = true
 		card_buttons[a].disabled = true
 		card_buttons[b].disabled = true
+		card_buttons[a].modulate = UITheme.COLOR_CORRECT
+		card_buttons[b].modulate = UITheme.COLOR_CORRECT
+		FX.punch_scale(card_buttons[a])
+		FX.punch_scale(card_buttons[b])
 		WordDB.update_stats(card_word_id[a], true)
 		pairs_found += 1
 		status_label.text = "Paires trouvées : %d / %d" % [pairs_found, pair_count]
 	else:
+		FX.shake(card_buttons[a])
+		FX.shake(card_buttons[b])
 		_flip_card(a, false)
 		_flip_card(b, false)
 

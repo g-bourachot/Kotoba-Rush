@@ -18,12 +18,14 @@ config/name="Kotoba Rush"
 config/description="Révision rapide de vocabulaire japonais, basée sur le Tracker Notion."
 run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.7", "Mobile")
-boot_splash/bg_color=Color(0.09, 0.09, 0.12, 1)
+boot_splash/bg_color=Color(0.114, 0.086, 0.196, 1)
 
 [autoload]
 
 WordDB="*res://autoloads/WordDB.gd"
 Settings="*res://autoloads/Settings.gd"
+UITheme="*res://autoloads/UITheme.gd"
+FX="*res://autoloads/FX.gd"
 
 [display]
 

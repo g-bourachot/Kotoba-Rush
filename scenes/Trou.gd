@@ -118,11 +118,13 @@ func _on_choice_pressed(idx: int) -> void:
 	for b in choice_buttons:
 		b.disabled = true
 
-	choice_buttons[idx].modulate = Color(0.4, 0.9, 0.4) if correct else Color(0.9, 0.4, 0.4)
+	choice_buttons[idx].modulate = UITheme.COLOR_CORRECT if correct else UITheme.COLOR_WRONG
+	FX.punch_scale(choice_buttons[idx])
 	if not correct:
 		var correct_idx: int = choice_word_ids.find(current_target_id)
 		if correct_idx >= 0 and correct_idx != idx:
-			choice_buttons[correct_idx].modulate = Color(0.4, 0.6, 1.0)
+			choice_buttons[correct_idx].modulate = UITheme.COLOR_REVEAL
+		FX.shake(sentence_label)
 
 	WordDB.update_stats(current_target_id, correct)
 	if correct:

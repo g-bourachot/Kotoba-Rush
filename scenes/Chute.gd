@@ -77,6 +77,7 @@ func _start_round() -> void:
 	current_word = WordDB.pick_weighted_word()
 	var field: String = "reading" if randi() % 2 == 0 else "meaning"
 	kanji_label.text = current_word.get("kanji", "")
+	FX.punch_scale(kanji_label)
 
 	var decoys: Array = WordDB.pick_decoys(current_word.get("id"), FALL_ITEMS_COUNT - 1)
 	var entries: Array = [{"word": current_word, "is_correct": true}]
@@ -125,11 +126,13 @@ func _resolve_round(correct: bool, triggered_idx: int) -> void:
 	for b in falling_buttons:
 		b.disabled = true
 
-	falling_buttons[triggered_idx].modulate = Color(0.4, 0.9, 0.4) if correct else Color(0.9, 0.4, 0.4)
+	falling_buttons[triggered_idx].modulate = UITheme.COLOR_CORRECT if correct else UITheme.COLOR_WRONG
+	FX.punch_scale(falling_buttons[triggered_idx])
 	if not correct:
 		var correct_idx: int = falling_is_correct.find(true)
 		if correct_idx >= 0 and correct_idx != triggered_idx:
-			falling_buttons[correct_idx].modulate = Color(0.4, 0.6, 1.0)
+			falling_buttons[correct_idx].modulate = UITheme.COLOR_REVEAL
+		FX.shake(kanji_label)
 
 	WordDB.update_stats(current_word.get("id"), correct)
 	if correct:
