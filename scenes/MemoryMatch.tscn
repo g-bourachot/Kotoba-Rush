@@ -17,28 +17,83 @@ offset_right = 96.0
 offset_bottom = 48.0
 text = "< Menu"
 
-[node name="VBox" type="VBoxContainer" parent="."]
+[node name="SetupPanel" type="VBoxContainer" parent="."]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -320.0
-offset_top = -260.0
-offset_right = 320.0
-offset_bottom = 260.0
+offset_left = -220.0
+offset_top = -140.0
+offset_right = 220.0
+offset_bottom = 140.0
 alignment = 1
-theme_override_constants/separation = 16
+theme_override_constants/separation = 24
 
-[node name="StatusLabel" type="Label" parent="VBox"]
+[node name="TitleLabel" type="Label" parent="SetupPanel"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+horizontal_alignment = 1
+text = "Paires mémoire"
+
+[node name="PairsRow" type="HBoxContainer" parent="SetupPanel"]
+layout_mode = 2
+alignment = 1
+theme_override_constants/separation = 8
+
+[node name="PairsLabel" type="Label" parent="SetupPanel/PairsRow"]
+layout_mode = 2
+text = "Nombre de paires :"
+
+[node name="PairsSlider" type="HSlider" parent="SetupPanel/PairsRow"]
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+min_value = 4.0
+max_value = 10.0
+step = 1.0
+value = 6.0
+
+[node name="PairsValueLabel" type="Label" parent="SetupPanel/PairsRow"]
+custom_minimum_size = Vector2(140, 0)
+layout_mode = 2
+text = "6 paires (12 cartes)"
+
+[node name="StartButton" type="Button" parent="SetupPanel"]
+layout_mode = 2
+text = "Commencer"
+
+[node name="GamePanel" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 90.0
+offset_right = -20.0
+offset_bottom = -20.0
+theme_override_constants/separation = 12
+
+[node name="StatusLabel" type="Label" parent="GamePanel"]
 layout_mode = 2
 horizontal_alignment = 1
 text = "Paires trouvées : 0 / 6"
 
-[node name="Grid" type="GridContainer" parent="VBox"]
+[node name="ScrollContainer" type="ScrollContainer" parent="GamePanel"]
 layout_mode = 2
-size_flags_horizontal = 4
+size_flags_vertical = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="GamePanel/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Grid" type="GridContainer" parent="GamePanel/ScrollContainer/CenterContainer"]
+layout_mode = 2
 theme_override_constants/h_separation = 8
 theme_override_constants/v_separation = 8
 columns = 4
+
+[node name="RestartButton" type="Button" parent="GamePanel"]
+layout_mode = 2
+text = "↺ Changer la taille"
