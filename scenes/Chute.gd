@@ -12,7 +12,7 @@ extends Control
 const GAME_ID := "chute"
 const FALL_ITEMS_COUNT := 3
 const FALL_SPEED := 140.0
-const ITEM_SIZE := Vector2(180, 64)
+const ITEM_SIZE := Vector2(180, 80)
 const STAGGER_OFFSET := 220.0
 const ROUND_END_DELAY := 0.7
 
@@ -92,11 +92,9 @@ func _start_round() -> void:
 		var word: Dictionary = entry["word"]
 
 		var btn := Button.new()
-		btn.text = word.get(field, "")
 		btn.custom_minimum_size = ITEM_SIZE
 		btn.size = ITEM_SIZE
-		btn.clip_text = true
-		btn.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
+		UITheme.wrap_button_text(btn, 16).text = word.get(field, "")
 
 		var x: float = lane_width * i + (lane_width - ITEM_SIZE.x) / 2.0
 		var start_y: float = -(ITEM_SIZE.y + i * STAGGER_OFFSET)

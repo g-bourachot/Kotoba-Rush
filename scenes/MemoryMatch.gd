@@ -30,6 +30,7 @@ const READ_DELAY := 1.4
 var pair_count: int = 6
 
 var card_buttons: Array[Button] = []
+var card_labels: Array[Label] = []
 var card_word_id: Array = []
 var card_is_kanji: Array[bool] = []
 var card_matched: Array[bool] = []
@@ -88,6 +89,7 @@ func _start_game() -> void:
 	for child in grid.get_children():
 		child.queue_free()
 	card_buttons.clear()
+	card_labels.clear()
 	card_word_id.clear()
 	card_is_kanji.clear()
 	card_matched.clear()
@@ -113,13 +115,13 @@ func _start_game() -> void:
 
 		var btn := Button.new()
 		btn.custom_minimum_size = CARD_SIZE
-		btn.text = "?"
-		btn.clip_text = true
-		btn.text_overrun_behavior = TextServer.OVERRUN_TRIM_ELLIPSIS
-		btn.add_theme_font_size_override("font_size", 20)
 		btn.modulate = UITheme.COLOR_ACCENT_ALT
 		grid.add_child(btn)
 		card_buttons.append(btn)
+
+		var label: Label = UITheme.wrap_button_text(btn, 18)
+		label.text = "?"
+		card_labels.append(label)
 
 		var idx: int = card_buttons.size() - 1
 		btn.pressed.connect(_on_card_pressed.bind(idx))
@@ -141,7 +143,7 @@ func _on_card_pressed(idx: int) -> void:
 
 
 func _flip_card(idx: int, face_up: bool) -> void:
-	card_buttons[idx].text = card_text[idx] if face_up else "?"
+	card_labels[idx].text = card_text[idx] if face_up else "?"
 	card_buttons[idx].modulate = Color(1, 1, 1) if face_up else UITheme.COLOR_ACCENT_ALT
 	FX.punch_scale(card_buttons[idx], 1.15)
 

@@ -72,3 +72,24 @@ func _round_corners(sb: StyleBoxFlat, radius: int) -> void:
 	sb.corner_radius_top_right = radius
 	sb.corner_radius_bottom_left = radius
 	sb.corner_radius_bottom_right = radius
+
+
+# Boutons créés dynamiquement (cartes mémoire, éléments qui tombent) :
+# le texte natif d'un Button ne passe jamais à la ligne et se fait
+# tronquer ("...") sur les traductions longues. On vide le texte du
+# bouton et on superpose un Label qui, lui, retourne bien à la ligne.
+# mouse_filter=IGNORE laisse les clics passer à travers vers le bouton.
+func wrap_button_text(btn: Button, font_size: int = 18) -> Label:
+	btn.text = ""
+	btn.clip_text = true
+
+	var label := Label.new()
+	label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
+	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	label.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	label.set_anchors_preset(Control.PRESET_FULL_RECT)
+	label.add_theme_font_size_override("font_size", font_size)
+	label.add_theme_color_override("font_color", COLOR_BUTTON_TEXT)
+	btn.add_child(label)
+	return label
