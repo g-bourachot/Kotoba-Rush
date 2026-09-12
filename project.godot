@@ -23,6 +23,7 @@ boot_splash/bg_color=Color(0.09, 0.09, 0.12, 1)
 [autoload]
 
 WordDB="*res://autoloads/WordDB.gd"
+Settings="*res://autoloads/Settings.gd"
 
 [display]
 

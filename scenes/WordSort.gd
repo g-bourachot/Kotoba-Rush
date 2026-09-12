@@ -6,22 +6,29 @@ extends Control
 # Le mot japonais s'affiche en haut. Deux réponses (une correcte,
 # une leurre) apparaissent à gauche/droite. Swipe vers la bonne
 # avant la fin du timer. Toute la logique de données (tirage
-# pondéré, sauvegarde) vit dans l'autoload WordDB.
+# pondéré, sauvegarde) vit dans l'autoload WordDB. Le temps par
+# manche est réglable (slider) et persisté via l'autoload Settings.
 # ============================================================
 
-const ROUND_TIME := 4.0
 const SWIPE_MIN_DISTANCE := 80.0
+const ROUND_END_DELAY := 1.6
+const MIN_ROUND_TIME := 2.0
+const MAX_ROUND_TIME := 10.0
 
+@onready var time_slider: HSlider = $VBox/SettingsRow/TimeSlider
+@onready var time_value_label: Label = $VBox/SettingsRow/TimeValueLabel
 @onready var kanji_label: Label = $VBox/KanjiLabel
 @onready var left_answer_label: Label = $VBox/AnswersRow/LeftAnswer
 @onready var right_answer_label: Label = $VBox/AnswersRow/RightAnswer
 @onready var timer_bar: ProgressBar = $VBox/TimerBar
+@onready var feedback_label: Label = $VBox/FeedbackLabel
 @onready var score_label: Label = $VBox/ScoreLabel
 @onready var back_button: Button = $BackButton
 
+var round_time: float = 6.0
 var current_word: Dictionary = {}
 var left_is_correct: bool = false
-var round_time_left: float = ROUND_TIME
+var round_time_left: float = 0.0
 var round_active: bool = false
 var score: int = 0
 
@@ -32,22 +39,45 @@ var swipe_tracking: bool = false
 func _ready() -> void:
 	randomize()
 	back_button.pressed.connect(func(): get_tree().change_scene_to_file("res://scenes/Main.tscn"))
+
+	round_time = Settings.round_time
+	time_slider.min_value = MIN_ROUND_TIME
+	time_slider.max_value = MAX_ROUND_TIME
+	time_slider.step = 0.5
+	time_slider.value = round_time
+	time_slider.value_changed.connect(_on_time_slider_changed)
+	_update_time_label()
+
 	if WordDB.count() < 2:
 		kanji_label.text = "Pas assez de mots dans la base."
 		return
 	_start_round()
 
 
+func _on_time_slider_changed(value: float) -> void:
+	round_time = value
+	Settings.save_round_time(value)
+	_update_time_label()
+
+
+func _update_time_label() -> void:
+	time_value_label.text = "%.1fs" % round_time
+
+
 func _process(delta: float) -> void:
 	if not round_active:
 		return
 	round_time_left -= delta
-	timer_bar.value = max(round_time_left / ROUND_TIME, 0.0) * 100.0
+	timer_bar.value = max(round_time_left / round_time, 0.0) * 100.0
 	if round_time_left <= 0.0:
-		_resolve_round(false)
+		_resolve_round(false, -1)
 
 
 func _start_round() -> void:
+	feedback_label.text = ""
+	left_answer_label.modulate = Color(1, 1, 1)
+	right_answer_label.modulate = Color(1, 1, 1)
+
 	current_word = WordDB.pick_weighted_word()
 	var decoy = WordDB.pick_decoy(current_word.get("id"))
 
@@ -64,11 +94,12 @@ func _start_round() -> void:
 		left_answer_label.text = decoy.get(field, "")
 		right_answer_label.text = current_word.get(field, "")
 
-	round_time_left = ROUND_TIME
+	round_time_left = round_time
 	round_active = true
 
 
-func _resolve_round(correct: bool) -> void:
+# chosen_side : 0 = gauche, 1 = droite, -1 = temps écoulé sans choix.
+func _resolve_round(correct: bool, chosen_side: int) -> void:
 	round_active = false
 	WordDB.update_stats(current_word.get("id"), correct)
 
@@ -76,8 +107,25 @@ func _resolve_round(correct: bool) -> void:
 		score += 1
 	score_label.text = "Score : %d" % score
 
-	# TODO: feedback visuel/sonore (flash vert/rouge) avant la manche suivante.
-	await get_tree().create_timer(0.4).timeout
+	var correct_label: Label = left_answer_label if left_is_correct else right_answer_label
+	var chosen_label: Label = null
+	if chosen_side == 0:
+		chosen_label = left_answer_label
+	elif chosen_side == 1:
+		chosen_label = right_answer_label
+
+	if chosen_label:
+		chosen_label.modulate = Color(0.4, 0.9, 0.4) if correct else Color(0.9, 0.4, 0.4)
+	if not correct:
+		correct_label.modulate = Color(0.4, 0.6, 1.0)
+
+	feedback_label.text = "%s (%s) — %s" % [
+		current_word.get("kanji", ""),
+		current_word.get("reading", ""),
+		current_word.get("meaning", ""),
+	]
+
+	await get_tree().create_timer(ROUND_END_DELAY).timeout
 	_start_round()
 
 
@@ -109,6 +157,6 @@ func _handle_swipe_end(end_pos: Vector2) -> void:
 	if abs(delta.x) < SWIPE_MIN_DISTANCE:
 		return
 
-	var swiped_left := delta.x < 0
-	var chose_correct := swiped_left == left_is_correct
-	_resolve_round(chose_correct)
+	var swiped_left: bool = delta.x < 0
+	var chose_correct: bool = swiped_left == left_is_correct
+	_resolve_round(chose_correct, 0 if swiped_left else 1)
