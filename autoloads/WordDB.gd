@@ -117,6 +117,36 @@ func pick_decoy(exclude_id) -> Dictionary:
 	return candidates[randi() % candidates.size()]
 
 
+# Un mot est "tout en hiragana" quand son champ kanji est identique à
+# sa lecture (ex. "けれども") — il n'a pas de kanji à proprement parler.
+func is_all_hiragana(word: Dictionary) -> bool:
+	return word.get("kanji", "") == word.get("reading", "")
+
+
+func ends_with_hiragana(text: String) -> bool:
+	if text.length() == 0:
+		return false
+	var code: int = text.unicode_at(text.length() - 1)
+	return code >= 0x3040 and code <= 0x309F
+
+
+# Comme pick_decoy, mais si le mot cible se termine par de l'hiragana
+# visible (okurigana, ex. 変わる), on force un leurre qui se termine par
+# le même caractère — sinon on peut deviner la bonne réponse juste en
+# comparant la fin du mot affiché, sans en connaître le sens.
+func pick_decoy_matching_ending(exclude_id, kanji: String) -> Dictionary:
+	if not ends_with_hiragana(kanji):
+		return pick_decoy(exclude_id)
+
+	var last_char: String = kanji.substr(kanji.length() - 1, 1)
+	var candidates: Array = words.filter(func(w):
+		return w.get("id") != exclude_id and String(w.get("kanji", "")).ends_with(last_char)
+	)
+	if candidates.is_empty():
+		return pick_decoy(exclude_id)
+	return candidates[randi() % candidates.size()]
+
+
 # Tire n leurres distincts (aucun rapport avec exclude_id) — pas besoin
 # de pondération ici, c'est juste du bruit pour un mini-jeu à choix
 # multiples (ex. Chute).

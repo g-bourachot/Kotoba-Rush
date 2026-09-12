@@ -89,14 +89,17 @@ func _start_round() -> void:
 	right_answer_label.modulate = Color(1, 1, 1)
 
 	current_word = WordDB.pick_weighted_word()
-	var decoy = WordDB.pick_decoy(current_word.get("id"))
+	var kanji_text: String = current_word.get("kanji", "")
+	var decoy: Dictionary = WordDB.pick_decoy_matching_ending(current_word.get("id"), kanji_text)
 
-	kanji_label.text = current_word.get("kanji", "")
+	kanji_label.text = kanji_text
 	FX.punch_scale(kanji_label)
 
 	left_is_correct = randi() % 2 == 0
-	# Alterne aléatoirement entre tester la lecture et le sens.
-	var field := "reading" if randi() % 2 == 0 else "meaning"
+	# Un mot tout en hiragana n'a pas de "lecture" distincte à tester
+	# (elle serait identique au mot déjà affiché) : on ne teste que le sens.
+	# Sinon, on alterne aléatoirement entre tester la lecture et le sens.
+	var field: String = "meaning" if WordDB.is_all_hiragana(current_word) else ("reading" if randi() % 2 == 0 else "meaning")
 
 	if left_is_correct:
 		left_answer_label.text = current_word.get(field, "")
