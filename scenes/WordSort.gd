@@ -11,7 +11,6 @@ extends Control
 # ============================================================
 
 const SWIPE_MIN_DISTANCE := 80.0
-const ROUND_END_DELAY := 1.6
 const MIN_ROUND_TIME := 2.0
 const MAX_ROUND_TIME := 10.0
 
@@ -22,6 +21,7 @@ const MAX_ROUND_TIME := 10.0
 @onready var right_answer_label: Label = $VBox/AnswersRow/RightAnswer
 @onready var timer_bar: ProgressBar = $VBox/TimerBar
 @onready var feedback_label: Label = $VBox/FeedbackLabel
+@onready var next_button: Button = $VBox/NextButton
 @onready var score_label: Label = $VBox/ScoreLabel
 @onready var back_button: Button = $BackButton
 
@@ -47,6 +47,9 @@ func _ready() -> void:
 	time_slider.value = round_time
 	time_slider.value_changed.connect(_on_time_slider_changed)
 	_update_time_label()
+
+	next_button.pressed.connect(_on_next_pressed)
+	next_button.visible = false
 
 	if WordDB.count() < 2:
 		kanji_label.text = "Pas assez de mots dans la base."
@@ -75,6 +78,7 @@ func _process(delta: float) -> void:
 
 func _start_round() -> void:
 	feedback_label.text = ""
+	next_button.visible = false
 	left_answer_label.modulate = Color(1, 1, 1)
 	right_answer_label.modulate = Color(1, 1, 1)
 
@@ -125,7 +129,10 @@ func _resolve_round(correct: bool, chosen_side: int) -> void:
 		current_word.get("meaning", ""),
 	]
 
-	await get_tree().create_timer(ROUND_END_DELAY).timeout
+	next_button.visible = true
+
+
+func _on_next_pressed() -> void:
 	_start_round()
 
 
