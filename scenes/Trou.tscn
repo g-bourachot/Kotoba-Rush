@@ -25,11 +25,11 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 offset_left = -300.0
-offset_top = -220.0
+offset_top = -300.0
 offset_right = 300.0
-offset_bottom = 220.0
+offset_bottom = 300.0
 alignment = 1
-theme_override_constants/separation = 32
+theme_override_constants/separation = 20
 
 [node name="SentenceLabel" type="Label" parent="VBox"]
 layout_mode = 2
@@ -65,7 +65,7 @@ text = "?"
 
 [node name="FeedbackLabel" type="Label" parent="VBox"]
 layout_mode = 2
-custom_minimum_size = Vector2(600, 40)
+custom_minimum_size = Vector2(600, 130)
 horizontal_alignment = 1
 autowrap_mode = 3
 text = ""

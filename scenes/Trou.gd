@@ -30,6 +30,7 @@ const SENTENCES_PATH := "res://data/sentences.json"
 @onready var back_button: Button = $BackButton
 
 var sentences: Array = []
+var current_entry: Dictionary = {}
 var current_target_id = null
 var choice_word_ids: Array = []
 var round_active: bool = false
@@ -85,13 +86,13 @@ func _start_round() -> void:
 		b.disabled = false
 		b.modulate = Color(1, 1, 1)
 
-	var entry: Dictionary = sentences[randi() % sentences.size()]
-	current_target_id = entry.get("word_id")
+	current_entry = sentences[randi() % sentences.size()]
+	current_target_id = current_entry.get("word_id")
 
-	sentence_label.text = entry.get("sentence", "")
+	sentence_label.text = current_entry.get("sentence", "")
 
 	choice_word_ids = [current_target_id]
-	for d in entry.get("decoy_ids", []):
+	for d in current_entry.get("decoy_ids", []):
 		choice_word_ids.append(d)
 	choice_word_ids.shuffle()
 
@@ -135,10 +136,14 @@ func _on_choice_pressed(idx: int) -> void:
 	score_label.text = "Score : %d" % score
 
 	var target_word: Dictionary = _find_word(current_target_id)
-	feedback_label.text = "%s (%s) — %s" % [
+	sentence_label.text = current_entry.get("sentence", "").replace("___", target_word.get("kanji", "___"))
+
+	feedback_label.text = "%s (%s) — %s\n\n%s\n« %s »" % [
 		target_word.get("kanji", ""),
 		target_word.get("reading", ""),
 		target_word.get("meaning", ""),
+		current_entry.get("reading", ""),
+		current_entry.get("translation", ""),
 	]
 
 	next_button.visible = true
